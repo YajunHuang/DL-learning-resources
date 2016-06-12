@@ -1,11 +1,12 @@
 # DL-learning-resources
 
 My Deep Learning Repository
+
 Yajun Huang, 黄亚军
 
 Deep learning resources that I am reading or plan to learn.
 
-Deep Learning for NLP 论文参考
+\section{Deep Learning for NLP 论文参考}
 
 Word2Vect
 T.Mikolov 的 word2vect 的发表论文：
