@@ -1,7 +1,7 @@
 # My Deep Learning Resources
 ### Yajun Huang, 黄亚军
 
-Deep learning resources that I am reading or plan to learn and I marked here for myself.
+Deep learning resources that I marked here for myself for reading or learning.
 
 ## Deep Learning for NLP 论文参考
 
@@ -22,7 +22,7 @@ Deep Learning Book:
 (Reading) Ian Goodfellow, Yoshua Bengio and Aaron Courville. Deep Learning. MIT Press
 
 
-### CNN for NLP model and text classification:
+### CNN for NLP model and text classification
 CNN 对句子语义建模的理论论文：
 Kalchbrenner N, Grefenstette E, Blunsom P. A Convolutional Neural Network for Modelling Sentences[C]. Proceedings of ACL. Baltimore and USA: Association for Computational Linguistics, 2014: 655-665.
 
@@ -35,14 +35,14 @@ Ye Zhang and Byron C. Wallace. 2015. A sensitivity analysis of (and practitioner
 CNN 对句子语义分类的另一种思路，主要考虑在one-hot词上直接进行CNN学习，找出具有语义的“word region”：
 Johnson, Rie and Zhang, Tong. Effective use of word order for text categorization with convolutional neural networks. In NAACL HLT, 2015a.
 
-上一篇论文的后续，主要考虑利用更多数据或者额外信息先做unsupervised learning，提高模型效果：
+上一篇论文的后续，主要考虑利用更多数据或者额外信息先做unsupervised learning，提高模型效果:
 Johnson, Rie and Zhang, Tong. Semi-supervised convolutional neural networks for text categorization via region embedding. In NIPS, 2015b.
 
-利用 CNN 网络直接在字符集做语义建模，使用一个深层的CNN网络（6~7层）：
+利用 CNN 网络直接在字符集做语义建模，使用一个深层的CNN网络（6~7层）:
 Xiang Zhang, Junbo Zhao, and Yann LeCun. 2015. Character-level convolutional networks for text classification. In Advanced in Neural Information Processing Systems (NIPS 2015), volume 28.
 Alexis Conneau, Holger Schwenk, Loïc Barrault, Yann Lecun. Very Deep Convolutional Networks for Natural Language Processing. arXiv:1606.01781
 
-### RNN for NLP model and text classification:
+### RNN for NLP model and text classification
 RNN 做文本语义分类的理论论文：
 Siwei Lai, Liheng Xu, Kang Liu, and Jun Zhao. Recurrent convolutional neural networks for text classification. In Proc. Conference of the Association for the Advancement of Artificial Intelligence (AAAI), 2015.
 
@@ -51,14 +51,14 @@ Johnson, Rie and Zhang, Tong. Supervised and Semi-Supervised Text Categorization
 using One-Hot LSTM for Region Embeddings. arXiv:1602.02373
 
 
-### CNN-RNN for NLP model and text classification:
-CNN + RNN 做文本语义建模的理论论文，现有 CNN 表示一个词的字符组合特征，再用RNN表示词序之间的特征：
+### CNN-RNN for NLP model and text classification
+CNN + RNN 做文本语义建模的理论论文，现有 CNN 表示一个词的字符组合特征，再用RNN表示词序之间的特征:
 Yoon Kim, Yacine Jernite, David Sontag, and Alexander M Rush. 2015. Character aware neural language models. arXiv preprint arXiv:1508.06615.
 
-CNN + RNN 做文本语义分类的理论论文：
+CNN + RNN 做文本语义分类的理论论文:
 Yijun Xiao, Kyunghyun Cho. Efficient Character-level Document Classification by Combining Convolution and Recurrent Layers
 
-在 CNN 深度网络中使用 Highway 的方法减弱 error vanishing的影响：
+在 CNN 深度网络中使用 Highway 的方法减弱 error vanishing的影响:
 Rupesh Kumar Srivastava, Klaus Greff, and Jurgen Schmidhuber. Highway networks. ¨ arXiv:1505.00387 [cs], May 2015.
 
 
@@ -66,7 +66,7 @@ Rupesh Kumar Srivastava, Klaus Greff, and Jurgen Schmidhuber. Highway networks. 
 第一个在 sequence-to-sequence 任务中提出 memory 和 attention 的论文，memory是 encoder RNN网络中多层的 hidden states，attention是计算 decoder 当前 state 与 encoder 的 states 的相似度：
 Bahdanau D, Cho K, Bengio Y. Neural machine translation by jointly learning to align and translate [J]. arXiv, 2014.
 
-用基于 memory 和 attention 的神经网络表示程序代码并判断代码执行，允许更新 memory，attention 使用 content 和 location 两种信息的关联关系（并使用sharpen突出特征）
+用基于 memory 和 attention 的神经网络表示程序代码并判断代码执行，允许更新 memory，attention 使用 content 和 location 两种信息的关联关系（并使用sharpen突出特征）:
 Graves, G. Wayne, and I. Danihelka. Neural turing machines. arXiv preprint 1410.5401, 2014. 
 
 基于 memory 和 attention 的神经网络处理NLP问题，语言模型、问答等场景：
@@ -80,7 +80,7 @@ Kumar A, Irsoy O, Su J, et al. Ask me anything: Dynamic memory networks for natu
 
 
 ### Others:
-使用 RNN 做 encoder & decoder 模型，训练机器翻译神经网络
+使用 RNN 做 encoder & decoder 模型，训练机器翻译神经网络:
 Sutskever I, Vinyals O, Le Q V V. Sequence to Sequence Learning with Neural Networks[M]. Advances in Neural Information Processing Systems 27. 2014: 3104-3112.
 
 Li J, Luong M T, Jurafsky D. A Hierarchical Neural Autoencoder for Paragraphs and Documents[C]. Proceedings of ACL. 2015.
@@ -93,17 +93,16 @@ John Wieting, Mohit Bansal, Kevin Gimpel, Karen Livescu. Towards Universal Parap
 Hu B, Chen Q, Zhu F. LCSTS: a large scale chinese short text summarization dataset[J]. arXiv preprint arXiv:1506.05865, 2015.
 
 
-### Deep Reinforcement Learning:
+### Deep Reinforcement Learning
 Jiwei Li, Will Monroe, Alan Ritter, Dan Jurafsky. Deep Reinforcement Learning for Dialogue Generation. arXiv:1606.01541
 
 
-### Name Entity Recognition(NER):
+### Name Entity Recognition(NER)
 Boosting Named Entity Recognition with Neural Character Embeddings. ACL 2015
 
 Chinese Word Segmentation and Named Entity Recognition: A Pragmatic Approach. ACL, 2005
 
 Chinese Named Entity Recognition using Lexicalized HMMs. SigKDD, 2005
-
 
 
 ## Deep Learning for Deep Architecture 论文参考
@@ -117,7 +116,7 @@ http://www.wildml.com/
 Implementing a CNN for Text Classification in TF:
 http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
 
-CONTEXT v3: Convolutional neural networks and LSTM for text categorization in C++ on GPU
+CONTEXT v3: Convolutional neural networks and LSTM for text categorization in C++ on GPU:
 http://riejohnson.com/cnn_download.html
 
 Standford computer vision and deep learning class:
@@ -129,11 +128,20 @@ https://github.com/nyu-dl/NLP_DL_Lecture_Note
 LSTM character awareness CNN:
 https://github.com/yoonkim/lstm-char-cnn
 
-neural networks and deep learning: 
+neural networks and deep learning:
 http://neuralnetworksanddeeplearning.com
 
-understanding LSTM
+understanding LSTM:
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
-demystifying deep reinforcement learning
+demystifying deep reinforcement learning:
 http://www.nervanasys.com/demystifying-deep-reinforcement-learning/
+
+## demos
+http://gitxiv.com/posts/jG46ukGod8R7Rdtud/a-neural-algorithm-of-artistic-style
+https://www.youtube.com/watch?v=V1eYniJ0Rnk
+https://www.youtube.com/watch?v=p88R2_3yWPA
+http://people.eecs.berkeley.edu/~igor.mordatch/policy/index.html
+https://www.youtube.com/watch?v=0VTI1BBLydE
+
+
