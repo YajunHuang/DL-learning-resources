@@ -18,7 +18,7 @@ http://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec
 Deep learning for NLP 的综述论文：
 Yoav Goldberg. 2015. A primer on neural network models for natural language processing. arXiv preprint arXiv:1510.00726.
 
-### Deep Learning Book
+Deep Learning Book:
 (Reading) Ian Goodfellow, Yoshua Bengio and Aaron Courville. Deep Learning. MIT Press
 
 
@@ -62,20 +62,20 @@ Yijun Xiao, Kyunghyun Cho. Efficient Character-level Document Classification by 
 Rupesh Kumar Srivastava, Klaus Greff, and Jurgen Schmidhuber. Highway networks. ¨ arXiv:1505.00387 [cs], May 2015.
 
 
-## Memory NN:
-### 第一个在 sequence-to-sequence 任务中提出 memory 和 attention 的论文，memory是 encoder RNN网络中多层的 hidden states，attention是计算 decoder 当前 state 与 encoder 的 states 的相似度：
+### Memory NN:
+第一个在 sequence-to-sequence 任务中提出 memory 和 attention 的论文，memory是 encoder RNN网络中多层的 hidden states，attention是计算 decoder 当前 state 与 encoder 的 states 的相似度：
 Bahdanau D, Cho K, Bengio Y. Neural machine translation by jointly learning to align and translate [J]. arXiv, 2014.
 
-### 用基于 memory 和 attention 的神经网络表示程序代码并判断代码执行，允许更新 memory，attention 使用 content 和 location 两种信息的关联关系（并使用sharpen突出特征）
+用基于 memory 和 attention 的神经网络表示程序代码并判断代码执行，允许更新 memory，attention 使用 content 和 location 两种信息的关联关系（并使用sharpen突出特征）
 Graves, G. Wayne, and I. Danihelka. Neural turing machines. arXiv preprint 1410.5401, 2014. 
 
-### 基于 memory 和 attention 的神经网络处理NLP问题，语言模型、问答等场景：
+基于 memory 和 attention 的神经网络处理NLP问题，语言模型、问答等场景：
 J. Weston, S. Chopra, and A. Bordes. Memory networks. In International Conference on Learning Representations (ICLR), 2015. 
 
-### 基于 Memory Network 的改进，端对端网络，易于训练和应用于其他问题：
+基于 Memory Network 的改进，端对端网络，易于训练和应用于其他问题：
 Sukhbaatar S, Weston J, Fergus R. End-to-end memory networks[C] Advances in Neural Information Processing Systems. 2015: 2431-2439.
 
-### 基于 Memory Network 的改进，使用复杂的网络结构，端对端网络，可处理多种问题，包括问答，POS，语言模型，情感分类：
+基于 Memory Network 的改进，使用复杂的网络结构，端对端网络，可处理多种问题，包括问答，POS，语言模型，情感分类：
 Kumar A, Irsoy O, Su J, et al. Ask me anything: Dynamic memory networks for natural language processing[J]. arXiv preprint arXiv:1506.07285, 2015.
 
 
