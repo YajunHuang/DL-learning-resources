@@ -139,9 +139,13 @@ http://www.nervanasys.com/demystifying-deep-reinforcement-learning/
 
 ## demos
 http://gitxiv.com/posts/jG46ukGod8R7Rdtud/a-neural-algorithm-of-artistic-style
+
 https://www.youtube.com/watch?v=V1eYniJ0Rnk
+
 https://www.youtube.com/watch?v=p88R2_3yWPA
+
 http://people.eecs.berkeley.edu/~igor.mordatch/policy/index.html
+
 https://www.youtube.com/watch?v=0VTI1BBLydE
 
 
