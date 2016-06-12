@@ -1,7 +1,7 @@
 # My Deep Learning Resources
 ### Yajun Huang, 黄亚军
 
-Deep learning resources that I am reading or plan to learn.
+Deep learning resources that I am reading or plan to learn and I marked here for myself.
 
 ## Deep Learning for NLP 论文参考
 
