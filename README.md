@@ -113,7 +113,7 @@ Chinese Word Segmentation and Named Entity Recognition: A Pragmatic Approach. AC
 Chinese Named Entity Recognition using Lexicalized HMMs. SigKDD, 2005
 
 
-## Deep Learning for Deep Architecture 论文参考
+## Deep Learning for Very Deep Architecture 论文参考
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image
 recognition. In CVPR, 2016.
 
