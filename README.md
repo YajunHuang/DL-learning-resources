@@ -66,6 +66,9 @@ Yijun Xiao, Kyunghyun Cho. Efficient Character-level Document Classification by 
 在 CNN 深度网络中使用 Highway 的方法减弱 error vanishing的影响: <br/>
 Rupesh Kumar Srivastava, Klaus Greff, and Jurgen Schmidhuber. Highway networks. ¨ arXiv:1505.00387 [cs], May 2015.
 
+Batch normalization: <br/>
+Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. CoRR, abs/1502.03167, 2015. arxiv.org/abs/1502.03167.
+
 
 ### Memory NN:
 第一个在 sequence-to-sequence 任务中提出 memory 和 attention 的论文，memory是 encoder RNN网络中多层的 hidden states，attention是计算 decoder 当前 state 与 encoder 的 states 的相似度： <br/>
