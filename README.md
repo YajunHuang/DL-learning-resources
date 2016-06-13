@@ -38,8 +38,12 @@ Johnson, Rie and Zhang, Tong. Effective use of word order for text categorizatio
 上一篇论文的后续，主要考虑利用更多数据或者额外信息先做unsupervised learning，提高模型效果:
 Johnson, Rie and Zhang, Tong. Semi-supervised convolutional neural networks for text categorization via region embedding. In NIPS, 2015b.
 
-利用 CNN 网络直接在字符集做语义建模，使用一个深层的CNN网络（6~7层）:
+利用 CNN 网络直接在字符集做语义建模和文本分类，使用一个深层的CNN网络（9层, 6 convolutional layers and 3 fully connected layers）:
 Xiang Zhang, Junbo Zhao, and Yann LeCun. 2015. Character-level convolutional networks for text classification. In Advanced in Neural Information Processing Systems (NIPS 2015), volume 28.
+
+上一篇的扩充。This technical report is superseded by a paper entitled "Character-level Convolutional Networks for Text Classification", arXiv:1509.01626. It has considerably more experimental results and a rewritten introduction
+Xiang Zhang, Yann LeCun. Text Understanding from Scratch. arXiv:1502.01710
+
 Alexis Conneau, Holger Schwenk, Loïc Barrault, Yann Lecun. Very Deep Convolutional Networks for Natural Language Processing. arXiv:1606.01781
 
 ### RNN for NLP model and text classification
