@@ -42,7 +42,7 @@ Johnson, Rie and Zhang, Tong. Semi-supervised convolutional neural networks for 
 Xiang Zhang, Junbo Zhao, and Yann LeCun. 2015. Character-level convolutional networks for text classification. In Advanced in Neural Information Processing Systems (NIPS 2015), volume 28. <br/>
 code: https://github.com/zhangxiangxiao/Crepe
 
-上一篇的扩充。This technical report is superseded by a paper entitled "Character-level Convolutional Networks for Text Classification", arXiv:1509.01626. It has considerably more experimental results and a rewritten introduction: <br/>
+上一篇的early version。This technical report is superseded by a paper entitled "Character-level Convolutional Networks for Text Classification", arXiv:1509.01626. It has considerably more experimental results and a rewritten introduction: <br/>
 Xiang Zhang, Yann LeCun. Text Understanding from Scratch. arXiv:1502.01710
 
 Alexis Conneau, Holger Schwenk, Loïc Barrault, Yann Lecun. Very Deep Convolutional Networks for Natural Language Processing. arXiv:1606.01781
