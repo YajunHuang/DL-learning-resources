@@ -114,8 +114,13 @@ Chinese Named Entity Recognition using Lexicalized HMMs. SigKDD, 2005
 
 
 ## Deep Learning for Deep Architecture 论文参考
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image
+recognition. In CVPR, 2016.
 
-FractalNet: Ultra-Deep Neural Networks without Residuals. arXiv:1605.07648v1
+Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale
+image recognition. In ICLR, 2015.
+
+FractalNet: Ultra-Deep Neural Networks without Residuals. arXiv:1605.07648v1.
 
 
 ## Deep Learning Brilliant Blogs
