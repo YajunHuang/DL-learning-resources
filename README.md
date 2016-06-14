@@ -115,9 +115,11 @@ R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks. 150
 Batch normalization: <br/>
 Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. CoRR, abs/1502.03167, 2015. arxiv.org/abs/1502.03167.
 
+VGG network: <br/>
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image
 recognition. In CVPR, 2016.
 
+Residual network: <br/>
 Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale
 image recognition. In ICLR, 2015.
 
