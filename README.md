@@ -3,17 +3,7 @@
 
 Deep learning resources that I marked here for reading and learning myself.
 
-## Deep Learning for NLP 论文参考
-
-### Word2Vect
-T.Mikolov 的 word2vect 的发表论文：<br/>
-T. Mikolov, K. Chen, G. Corrado, J. Dean, Efficient estimation of word representations in vector space, CoRR abs/1301.3781.
-
-将word2vec和lda联合训练的work，既考虑相邻词之间的关系又考虑document对词的影响，神经网络结合词的 word vector 和文本的 topic model(lda) vector，同时训练。In this work, we describe lda2vec, a model that learns dense word vectors jointly with Dirichlet-distributed latent document-level mixtures of topic vectors: <br/>
-Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec. arXiv:1605.02019v1 <br/>
-https://github.com/cemoody/lda2vec <br/>
-http://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec <br/>
-
+## Deep Learning for NLP 
 ### Surveys & Books
 Deep learning for NLP 的综述论文: <br/>
 Yoav Goldberg. 2015. A primer on neural network models for natural language processing. arXiv preprint arXiv:1510.00726.
@@ -21,6 +11,14 @@ Yoav Goldberg. 2015. A primer on neural network models for natural language proc
 Deep Learning Book: <br/>
 (Reading) Ian Goodfellow, Yoshua Bengio and Aaron Courville. Deep Learning. MIT Press
 
+### Word2Vect
+T.Mikolov 的训练 word2vect 方法的论文：<br/>
+T. Mikolov, K. Chen, G. Corrado, J. Dean, Efficient estimation of word representations in vector space, CoRR abs/1301.3781.
+
+将word2vec和lda联合训练的work，既考虑相邻词之间的关系又考虑document对词的影响，神经网络结合词的 word vector 和文本的 topic model(lda) vector，同时训练。In this work, we describe lda2vec, a model that learns dense word vectors jointly with Dirichlet-distributed latent document-level mixtures of topic vectors: <br/>
+Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec. arXiv:1605.02019v1 <br/>
+https://github.com/cemoody/lda2vec <br/>
+http://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec <br/>
 
 ### CNN for NLP model and text classification
 CNN 对句子语义建模的理论论文： <br/>
@@ -62,12 +60,6 @@ Yoon Kim, Yacine Jernite, David Sontag, and Alexander M Rush. 2015. Character aw
 
 CNN + RNN 做文本语义分类的理论论文: <br/>
 Yijun Xiao, Kyunghyun Cho. Efficient Character-level Document Classification by Combining Convolution and Recurrent Layers
-
-在 CNN 深度网络中使用 Highway 的方法减弱 error vanishing的影响: <br/>
-Rupesh Kumar Srivastava, Klaus Greff, and Jurgen Schmidhuber. Highway networks. ¨ arXiv:1505.00387 [cs], May 2015.
-
-Batch normalization: <br/>
-Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. CoRR, abs/1502.03167, 2015. arxiv.org/abs/1502.03167.
 
 
 ### Memory NN:
@@ -113,7 +105,16 @@ Chinese Word Segmentation and Named Entity Recognition: A Pragmatic Approach. AC
 Chinese Named Entity Recognition using Lexicalized HMMs. SigKDD, 2005
 
 
-## Deep Learning for Very Deep Architecture 论文参考
+## Very Deep Architecture 
+在 CNN 深度网络中使用 Highway 的方法减弱 error vanishing的影响: <br/>
+Rupesh Kumar Srivastava, Klaus Greff, and Jurgen Schmidhuber. Highway networks. ¨ arXiv:1505.00387 [cs], May 2015.
+
+Highway networks 的扩展: <br/>
+R. K. Srivastava, K. Greff, and J. Schmidhuber. Training very deep networks. 1507.06228, 2015.
+
+Batch normalization: <br/>
+Sergey Ioffe and Christian Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. CoRR, abs/1502.03167, 2015. arxiv.org/abs/1502.03167.
+
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image
 recognition. In CVPR, 2016.
 
