@@ -90,6 +90,10 @@ Zeng D, Liu K, Lai S, et al. Relation Classification via Convolutional Deep Neur
 比较 word2vec-avg, word2vec-weighted, RNN, LSTM 等6种模型在 sentence modeling 和 multi-source sentence modeling 的效果，对比结果可以参考: <br/>
 John Wieting, Mohit Bansal, Kevin Gimpel, Karen Livescu. Towards Universal Paraphrastic Sentence Embeddings. Published as a conference paper at ICLR 2016
 
+compositional and attentional 模型处理Q&A。根据问句的句法结构，选出对应的modules构造神经网络，使用RL和<question, world, answer>数据进行训练: <br/>
+Learning to compose neural networks for question answering. Jacob Andreas, Marcus Rohrbach, Trevor Darrell and Dan Klein. NAACL 2016. <br/>
+https://github.com/jacobandreas/nmn2
+
 Hu B, Chen Q, Zhu F. LCSTS: a large scale chinese short text summarization dataset[J]. arXiv preprint arXiv:1506.05865, 2015.
 
 
