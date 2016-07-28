@@ -43,6 +43,7 @@ code: https://github.com/zhangxiangxiao/Crepe
 上一篇的early version。This technical report is superseded by a paper entitled "Character-level Convolutional Networks for Text Classification", arXiv:1509.01626. It has considerably more experimental results and a rewritten introduction: <br/>
 Xiang Zhang, Yann LeCun. Text Understanding from Scratch. arXiv:1502.01710
 
+利用resnet技术，使用更深层次的CNN网络在字符集上做语义建模的，可以达到几十层。参照计算机视觉的工作，Character-level convolutional networks for text classification是DL4NLP的VGG版本，这篇是ResNet版本。
 Alexis Conneau, Holger Schwenk, Loïc Barrault, Yann Lecun. Very Deep Convolutional Networks for Natural Language Processing. arXiv:1606.01781
 
 ### RNN for NLP model and text classification
