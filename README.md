@@ -3,16 +3,22 @@
 
 Deep learning resources that I marked here for reading and learning myself.
 
-## Deep Learning for NLP 
-### Survey, book, tutorial, class:
-Deep learning for NLP 的综述论文: <br/>
-Yoav Goldberg. 2015. A primer on neural network models for natural language processing. arXiv preprint arXiv:1510.00726.
+## Deep Learning self-learning:
+最好的入门资料:<br/>
+Neural Networks and Deep Learning. http://neuralnetworksanddeeplearning.com/
+
+进阶课程:<br/>
+Stanford CS231n: Convolutional Neural Networks for Visual Recognition. <br/>
+要把notes看完，三份作业也做完，作业设计的很好。
 
 Deep Learning Book: <br/>
 (Reading) Ian Goodfellow, Yoshua Bengio and Aaron Courville. Deep Learning. MIT Press
 
-Stanford CS231n: Convolutional Neural Networks for Visual Recognition. <br/>
-要把notes看完，三份作业也做完，作业设计的很好。
+
+## Deep Learning for NLP 
+### Survey & Online course:
+Deep learning for NLP 的综述论文: <br/>
+Yoav Goldberg. 2015. A primer on neural network models for natural language processing. arXiv preprint arXiv:1510.00726.
 
 Stanford CS224d: Deep Learning for Natural Language Processing. <br/>
 
