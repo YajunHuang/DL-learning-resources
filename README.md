@@ -3,7 +3,7 @@
 
 Deep learning resources that I marked here for reading and learning myself.
 
-## Deep Learning self-learning:
+## Deep Learning Self-learning:
 最好的入门资料:<br/>
 Neural Networks and Deep Learning. http://neuralnetworksanddeeplearning.com/
 
