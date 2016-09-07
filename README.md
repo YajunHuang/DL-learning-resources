@@ -1,9 +1,9 @@
 # My Deep Learning Resources
 ### Yajun Huang, 黄亚军
 
-Deep learning resources that I marked here for reading and self-learning.
+Deep learning resources that I marked here for reading and self-study.
 
-## Deep Learning Self-learning:
+## Deep Learning Self-study:
 最好的入门资料:<br/>
 Neural Networks and Deep Learning. http://neuralnetworksanddeeplearning.com/
 
