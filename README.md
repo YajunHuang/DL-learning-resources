@@ -8,8 +8,9 @@ Deep learning resources that I marked here for reading and self-study.
 Neural Networks and Deep Learning. http://neuralnetworksanddeeplearning.com/
 
 进阶课程:<br/>
-Stanford CS231n: Convolutional Neural Networks for Visual Recognition. <br/>
-要把notes看完，三份作业也做完，作业设计的很好。
+Stanford CS231n: Convolutional Neural Networks for Visual Recognition[http://cs231n.stanford.edu/]. notes[http://cs231n.github.io/] videos[https://www.youtube.com/playlist?list=PLLvH2FwAQhnpj1WEB-jHmPuUeQ8mX-XXG] <br/>
+
+要把notes, videos看完，三份作业也做完，作业设计的很好。
 
 Deep Learning Book: <br/>
 (Reading) Ian Goodfellow, Yoshua Bengio and Aaron Courville. Deep Learning. MIT Press
