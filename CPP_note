@@ -1,0 +1,49 @@
+# Compile C++ source code
+
+## Blind Points
+### 'configure' file:
+(usually do ./configure): a bash file, usually to generate make file and configure environment vriables.
+
+### 'bazel' software: 
+Bazel builds software from source code organized in a directory called a workspace. Source files in the workspace are organized in a nested hierarchy of packages, where each package is a directory that contains a set of related source files and one BUILD file. The BUILD file specifies what software outputs can be built from the source. [doc](https://bazel.build/versions/master/docs/build-ref.html)
+
+- 'bazel build' command
+
+- 'CMakeLists.txt' file: 
+
+
+### make V.S. cmake: 
+Make (or rather a Makefile) is a buildsystem - it drives the compiler and other build tools to build your code.
+
+CMake is a generator of buildsystems. It can produce Makefiles, it can produce Ninja build files, it can produce KDEvelop or XCode projects, it can produce Visual Studio solutions. From the same starting point, the same CMakeLists.txt file. So if you have a platform-independent project, CMake is a way to make it buildsystem-independent as well.
+
+If you have Windows developers used to Visual Studio and Unix developers who swear by GNU Make, CMake is (one of) the way(s) to go.
+
+I would always recommend using CMake (or another buildsystem generator, but CMake is my personal preference) if you intend your project to be multi-platform or widely usable. CMake itself also provides some nice features like dependency detection, library interface management, or integration with CTest, CDash and CPack.
+
+Using a buildsystem generator makes your project more future-proof. Even if you're GNU-Make-only now, what if you later decide to expand to other platforms (be it Windows or something embedded), or just want to use an IDE?
+
+CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. [cmake](https://cmake.org/) [tutorial](https://cmake.org/cmake-tutorial/)
+
+__CLion uses cmake to manage project.__
+
+### protobuf: 
+Protocol buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data – think XML, but smaller, faster, and simpler. You define how you want your data to be structured once, then you can use special generated source code to easily write and read your structured data to and from a variety of data streams and using a variety of languages. [doc] (https://developers.google.com/protocol-buffers/)
+
+- make: The "make" utility automates the mundane aspects of building executable from source code. "make" uses a so-called makefile, which contains rules on how to build the executables.
+
+## Blogs
+How does the compilation/linking process work? [link](http://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work)
+
+GCC and Make Compiling, Linking and Building C/C++ Applications. [link](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+
+
+## C++ notes
+
+* Why should I use a pointer rather than the object itself?[1](http://stackoverflow.com/questions/22146094/why-should-i-use-a-pointer-rather-than-the-object-itself?rq=1)
+* Pointer vs. Reference. [1](http://stackoverflow.com/questions/620604/difference-between-a-pointer-and-reference-parameter) [2](http://stackoverflow.com/questions/114180/pointer-vs-reference?noredirect=1&lq=1)
+* Which kind of pointer do I use when? [1](http://stackoverflow.com/questions/8706192/which-kind-of-pointer-do-i-use-when?noredirect=1&lq=1)
+* Understanding Initialization Lists in C++. [1](http://www.cprogramming.com/tutorial/initialization-lists-c++.html)
+* Install and use Boost [1](http://www.boost.org/doc/libs/1_64_0/more/getting_started/unix-variants.html)
+
+
